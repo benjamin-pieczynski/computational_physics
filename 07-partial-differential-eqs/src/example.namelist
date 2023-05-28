@@ -1,0 +1,21 @@
+&integration
+    length = 10
+    n_points = 100
+    n_steps = 100
+    delta_t = 0.05
+/
+
+&wave_function
+    width = 0.4
+    center = 0.0
+/
+
+&oscillator
+    k_oscillator = 0.0
+/
+
+&output
+    time_file = 'time_results.dat'
+    density_file = 'density_results.dat'
+/
+return
