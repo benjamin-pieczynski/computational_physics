@@ -1,0 +1,21 @@
+&masses
+    primary_mass = 1
+    planet_mass_1 = 0.1
+    planet_mass_2 = 0.05
+/
+
+&initial_conditions
+    initial_pos_1 = 0.64, 0.92
+    initial_pos_2 = 0.62, 0.1
+    initial_vel_1 = 0.42, 0.2
+    initial_vel_2 = 0.81, 0.2
+/
+
+&solution_parameters
+    final_time = 61
+    n_steps = 1500
+/
+
+&output
+    output_file = 'nml_result_1.dat'
+/
